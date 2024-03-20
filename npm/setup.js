@@ -5,14 +5,14 @@ const [orgName] = pkg.name.split('/');
 
 if (!orgName.includes('@')) {
   console.error('Invalid Org name');
-  process.exit(0);
+  process.exit(1);
 }
 
 const token = process.env.GITHUB_TOKEN;
 
 if (!token) {
   console.info('Token is not provided');
-  process.exit(0);
+  process.exit(1);
 }
 
 const npmrcPath = '.npmrc';
