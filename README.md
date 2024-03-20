@@ -1,6 +1,6 @@
 # Tools
 
-## Setup .npmrc
+## Setup auth .npmrc
 
 **Environment variable:**
 
