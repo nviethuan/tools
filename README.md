@@ -1,6 +1,6 @@
 # Tools
 
-## Setup npm
+## Setup .npmrc
 
 **Environment variable:**
 
