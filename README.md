@@ -2,8 +2,10 @@
 
 ## Setup npm
 
-**Required:** `GITHUB_TOKEN`
+**Environment variable:**
+
+- `GITHUB_TOKEN` - _required_
 
 ```
-GITHUB_TOKEN=<PAT> curl -L https://raw.githubusercontent.com/nviethuan/tools/master/npm/setup.js | node
+curl -L https://raw.githubusercontent.com/nviethuan/tools/master/npm/setup.js | node
 ```
