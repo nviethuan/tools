@@ -14,7 +14,7 @@ curl -L https://raw.githubusercontent.com/nviethuan/tools/master/npm/setup.js | 
 wget -qO- https://raw.githubusercontent.com/nviethuan/tools/master/npm/setup.js | node
 ```
 
-or
+**Or:**
 
 ```
 # dependency: dotenv-cli (npm i -g dotenv-cli)
