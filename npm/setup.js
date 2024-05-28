@@ -1,7 +1,11 @@
 const { writeFileSync } = require('fs');
 const pkg = require('./package.json');
 
-const [orgName = process.env.ORG] = pkg.name.split('/');
+let orgName = process.env.ORG;
+
+if (!orgName) {
+  [orgName] = pkg.name.split('/');
+}
 
 if (!orgName.includes('@')) {
   console.error('Invalid Org name');
